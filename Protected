@@ -1,0 +1,17 @@
+package accessmodifiers;
+
+public class Protected {
+
+	protected int f=741;
+	protected int g =963;
+	protected int sum = f+g;
+	
+	protected void add()
+	{
+		System.out.println(sum);
+	}
+	
+
+	
+
+}
