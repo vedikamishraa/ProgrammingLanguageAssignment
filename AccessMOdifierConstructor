@@ -1,0 +1,48 @@
+package constructors;
+
+public class AccessModifierConstructors {
+	int num1;
+	int num2;
+	int num3;
+	String h;
+	AccessModifierConstructors ()
+	{
+		System.out.println("Default");
+	}
+	
+	protected AccessModifierConstructors(int a)
+	{
+		
+		num1=a;
+	}
+	 public AccessModifierConstructors(int b, int c)
+	 {
+		
+		 num2=b;
+		 num3=c;
+	 }
+	 
+	 private AccessModifierConstructors(String x)
+	 {
+		 
+		 h=x;;
+	 }
+		
+	
+	
+
+	public static void main(String[] args) {
+		AccessModifierConstructors amc = new AccessModifierConstructors();
+		AccessModifierConstructors amc1 = new AccessModifierConstructors(90);
+		AccessModifierConstructors amc2 = new AccessModifierConstructors(34,76);
+		AccessModifierConstructors amc3 = new AccessModifierConstructors("Protected Constructor");
+		System.out.println(amc1.num1);
+		System.out.println(amc2.num2);
+		System.out.println(amc2.num3);
+		System.out.println(amc3.h);
+		
+		
+
+	}
+
+}
