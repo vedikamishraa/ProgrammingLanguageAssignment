@@ -1,0 +1,39 @@
+package constructors;
+
+public class TypesOfConstructors {
+	
+	//Default Constructor
+	
+	int num;
+	String name;
+	int a=963;
+	int x=89;
+	int y=65;
+	int s = x+y;
+	
+	public TypesOfConstructors()
+	{
+		System.out.println("This is Default Constuctor");
+	}
+	
+	public TypesOfConstructors(int a)
+	{
+		System.out.println("Single Arguement Constructor");
+	}
+	
+	public TypesOfConstructors(int x, int y)
+	{
+		System.out.println("Double Arguement Constructor");
+	}
+
+	public static void main(String[] args) {
+		
+		TypesOfConstructors toc = new TypesOfConstructors();
+		System.out.println(toc.num);
+		System.out.println(toc.name);
+		System.out.println(toc.a);
+		System.out.println(toc.s);
+		
+	}
+
+}
