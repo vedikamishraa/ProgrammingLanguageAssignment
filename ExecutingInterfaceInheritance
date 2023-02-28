@@ -1,0 +1,22 @@
+package interfaceassignment;
+
+public class ExecutingInterfaceInheritance implements InterfaceInheritance2 {
+
+	@Override
+	public void display(String c) {
+		System.out.println(c);
+	}
+
+	@Override
+	public void displaymsg(String h) {
+		System.out.println( h);
+		
+	}
+
+	public static void main(String[] args) {
+		ExecutingInterfaceInheritance ei = new ExecutingInterfaceInheritance();
+		ei.display("This id from 1st Interface");
+		ei.displaymsg("This is from 2nd Interface");
+	}
+
+}
