@@ -1,0 +1,10 @@
+package interfaceassignment;
+
+public interface IntrefaceDefault {
+	
+	default void message()
+	{
+		System.out.println("This is Default Method");
+	}
+
+}
