@@ -1,0 +1,12 @@
+package accessmodifiers;
+
+public class AccessProtected {
+
+	public static void main(String[] args) {
+	 Protected p = new Protected();
+	 p.add();
+	 
+
+	}
+
+}
