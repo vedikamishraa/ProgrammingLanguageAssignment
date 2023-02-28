@@ -1,0 +1,23 @@
+package javabasics;
+
+public class LocalandGlobalVariables {
+
+	
+		
+		public void addition()
+		{
+		int b = 25;
+		int c = 63;
+		int sum = b+c;
+		System.out.println("Addition:(Local Variable) " +sum);
+		}
+		
+		public static void main(String[] args) {
+		LocalandGlobalVariables	lv = new LocalandGlobalVariables();
+		lv.addition();
+		int a= 10;	
+		System.out.println("Global Variable: " +a);
+
+	}
+
+}
