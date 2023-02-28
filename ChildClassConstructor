@@ -1,0 +1,12 @@
+package constructors;
+
+public class ChildClass {
+
+	public static void main(String[] args) {
+		SuperClass s = new SuperClass();
+		SuperClass sc = new SuperClass(7890, 9876);
+		System.out.println(sc.x);
+		
+	}
+
+}
