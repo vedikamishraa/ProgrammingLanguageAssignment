@@ -1,0 +1,21 @@
+package abstractclass;
+
+public class ChildClass extends AbstractandNonAbstract {
+	
+
+		@Override
+		public void addition(int a, int b) {
+			System.out.println(4*a+4*b);
+			
+
+}
+		
+		public static void main(String[] args) {
+			
+			ChildClass c = new ChildClass();
+			c.addition(52, 85);
+			c.subtraction(963, 852);
+			c.multiplication(6, 0);
+			c.division(741, 3);
+		}
+}
