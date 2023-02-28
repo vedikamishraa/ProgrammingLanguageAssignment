@@ -1,0 +1,13 @@
+package accessmodifiers;
+
+public class Public {
+	 public int j = 90;
+	 public int k=600930;
+	 public int div = k/j;
+	 
+	 public void div()
+	 {
+		 System.out.println(div);
+		 
+	 }
+}
