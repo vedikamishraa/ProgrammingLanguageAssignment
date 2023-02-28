@@ -1,0 +1,19 @@
+package constructors;
+
+public class SuperClass {
+	
+	int a;
+	int b;
+	int x;
+	
+	public SuperClass()
+	{
+		System.out.println("default");
+	}
+	
+	public SuperClass(int a , int b)
+	{
+		 x = a+b;
+	}
+
+}
