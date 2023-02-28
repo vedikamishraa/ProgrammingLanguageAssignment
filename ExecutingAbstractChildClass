@@ -1,0 +1,13 @@
+package abstractclass;
+public class ExecutingAbstract  {
+public static void main(String[] args) {
+		
+	    ChildClass d = new ChildClass();
+		d.addition(52, 50);
+		d.subtraction(45, 5);
+		d.multiplication(100, 100);
+		d.division(45, 9);
+
+	}
+
+}
