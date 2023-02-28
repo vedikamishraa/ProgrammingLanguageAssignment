@@ -1,0 +1,21 @@
+package constructors;
+
+public class MultipleObjects {
+	int a =98;
+	int b;
+	
+	MultipleObjects()
+	{
+		System.out.println(" This is the Default Constructor");
+	}
+
+	public static void main(String[] args) {
+		MultipleObjects mo = new MultipleObjects();
+		System.out.println(mo.a);
+		System.out.println(mo.b);
+		
+		
+
+	}
+
+}
