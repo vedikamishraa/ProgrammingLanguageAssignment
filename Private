@@ -1,0 +1,25 @@
+package accessmodifiers;
+
+public class Private {
+	private int x = 80;
+	private int y = 36;
+	
+	private void number()
+	{
+		System.out.println(x);
+		System.out.println(y);
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		Private p = new Private();
+		p.number();
+		
+	
+		
+		
+	}
+
+}
