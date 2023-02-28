@@ -1,0 +1,21 @@
+package operators;
+
+public class LogicalAndOrNot {
+
+	public static void main(String[] args) {
+		int n = 12;
+		int m = 11;
+		boolean res;
+		res = (n==12) && (m==11);
+		System.out.println(n + " && " + m + " ? " +res);
+		res = (n==12) || (m==11);
+		System.out.println(n + " || " + m + " ? " +res);
+		res = ! (n==12); 
+		System.out.println("! "  + n + " ? " +res);
+		res = ! (m==11);
+		System.out.println("! " + m + " ? " +res);
+
+
+	}
+
+}
