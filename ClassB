@@ -1,0 +1,34 @@
+package inheritance;
+
+public class B extends A {
+	
+	int x = 63;
+	int y = 96;
+	int z = 12;
+	
+	public void multiplication()
+	{
+		int mul = x*y;
+		System.out.println("Mutiplication : " +mul);
+	}
+	public void division()
+	{
+		int div = y/z;
+		System.out.println("Division : " +div);
+		
+	}
+	public void display()
+	{
+		System.out.println("This is sub class B ");
+		super.message();
+	}
+	
+	public void string()
+	{
+		System.out.println(super.m);
+	}
+	
+
+	
+
+}
