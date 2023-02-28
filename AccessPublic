@@ -1,0 +1,10 @@
+package accessmodifiers;
+
+public class AccessPublic {
+
+	public static void main(String[] args) {
+		Public pu = new Public();
+		pu.div();
+	}
+
+}
