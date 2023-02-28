@@ -1,0 +1,11 @@
+package interfaceassignment;
+
+public interface InterfaceWithTwoMethods {
+	
+	public void implemented(int x);
+	
+	public void tobeimplemented(int y,int z);
+	
+	
+
+}
