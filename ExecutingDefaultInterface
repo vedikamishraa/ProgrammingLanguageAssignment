@@ -1,0 +1,10 @@
+package interfaceassignment;
+
+public class ExecutingDefault implements IntrefaceDefault{
+
+	public static void main(String[] args) {
+		ExecutingDefault ed = new ExecutingDefault();
+		ed.message();
+	}
+
+}
