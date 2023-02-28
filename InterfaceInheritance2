@@ -1,0 +1,8 @@
+package interfaceassignment;
+
+public interface InterfaceInheritance2 extends InterfaceInheritance {
+	 
+	public void displaymsg(String h);
+	
+	
+}
