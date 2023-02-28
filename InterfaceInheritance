@@ -1,0 +1,8 @@
+package interfaceassignment;
+
+public interface InterfaceInheritance {
+	 
+	public void display(String c);
+	
+	
+}
