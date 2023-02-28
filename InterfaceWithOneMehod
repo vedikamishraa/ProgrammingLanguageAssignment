@@ -1,0 +1,8 @@
+package interfaceassignment;
+
+public interface InterfaceWithOneMethod {
+	
+	public void implemented(int a , int b);
+	
+
+}
