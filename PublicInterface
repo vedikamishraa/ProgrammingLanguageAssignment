@@ -1,0 +1,11 @@
+package interfaceassignment;
+
+public interface Public {
+	
+	int a = 89;
+	int b = 908;
+	
+	public void add();
+	
+
+}
