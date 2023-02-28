@@ -1,0 +1,27 @@
+package inheritance;
+
+public class C extends B {
+	String s = "this is assignment";
+	String c = " this is java programming language";
+	
+	public void statement()
+	{
+		System.out.println(s);
+	}
+	
+	public void lang()
+	{
+		System.out.println(s + c);
+	}
+	public void display()
+	{
+		System.out.println("This is sub class C ");
+		super.message();
+	}
+	public void string()
+	{
+		System.out.println(super.m);
+	}
+	
+
+}
