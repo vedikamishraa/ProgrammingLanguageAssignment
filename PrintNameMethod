@@ -1,0 +1,17 @@
+package javabasics;
+
+public class PrintNameMethod {
+
+	public void PrintName()
+	{
+	System.out.println("My Name is Vedika");
+	}
+	
+	
+	public static void main(String[] args) {
+		PrintNameMethod pn = new PrintNameMethod();
+		pn.PrintName();
+		
+	}
+
+}
