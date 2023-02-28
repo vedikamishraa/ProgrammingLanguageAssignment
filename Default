@@ -1,0 +1,17 @@
+package accessmodifiers;
+
+public class Default {
+	  int a = 89;
+	  int b = 85;
+	  
+	  void mul()
+	  {
+		  int mul = a*b;
+		  System.out.println(mul);
+	 
+	 
+	
+
+	}
+
+}
