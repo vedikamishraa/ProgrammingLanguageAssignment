@@ -1,0 +1,25 @@
+package interfaceassignment;
+
+public class MultilevelInterface implements Interface1, Interface2  {
+
+	@Override
+	public void per(int l, int b) {
+		int p = 2*(l+b);
+		System.out.println("Perimeter: " +p);
+	}
+
+	@Override
+	public void area(int l, int b) {
+		int a = l*b;
+		System.out.println("Area : " +a);
+		
+	}
+
+	
+	public static void main(String[] args) {
+		MultilevelInterface m = new MultilevelInterface();
+		m.per(8, 6);
+		m.area(8, 6);
+
+	}
+}
