@@ -1,0 +1,32 @@
+package operators;
+
+public class ArithmeticOperators {
+
+	public static void main(String[] args) {
+		int a = 56;
+		int b = 78;
+		int sum = a+b;
+
+		System.out.println("Operator + " +sum);
+
+		int c = 85;
+		int d = 47;
+		int diff = c-d;
+
+		System.out.println("Operator - " +diff);
+
+		int e = 79;
+		int f = 13;
+		int mul = e*f;
+
+		System.out.println("Operator * " +mul);
+
+		int g = 1000;
+		int h = 25;
+		int div = g/h;
+
+		System.out.println("Operator / " +div);
+
+	}
+
+}
