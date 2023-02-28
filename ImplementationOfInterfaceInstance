@@ -1,0 +1,16 @@
+package interfaceassignment;
+
+public class InmplementationOfInterfaceInstance implements InterfaceInstances {
+
+	@Override
+	public void implemented(int l, int b, int h) {
+		int volume = l*b*h;
+		System.out.println(volume);
+		
+	}
+	
+	
+		
+		
+	
+}
