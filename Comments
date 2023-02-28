@@ -1,0 +1,17 @@
+package javabasics;
+
+public class Comments {
+
+	public static void main(String[] args) {
+		//Single-line Comments
+		//this is single line comment
+
+//Multi-line Comments		
+        /*
+	 * this is some code that needs to be commented these are multiple lines of code
+	 * that needs to be commented
+	 */
+
+	}
+
+}
