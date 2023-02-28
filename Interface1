@@ -1,0 +1,7 @@
+package interfaceassignment;
+
+public interface Interface1 {
+	
+	public void per(int l, int b);
+
+}
