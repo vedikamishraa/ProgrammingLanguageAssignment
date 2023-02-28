@@ -1,0 +1,25 @@
+package javabasics;
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		// Variables:A Variable is an identifier that denotes a storage location used to store a data value.
+
+        int num1 = 10;
+        System.out.println(num1);
+        double num2 = 12.33;
+        System.out.println(num2);
+        String name = "Vedika";
+        System.out.println(name);
+        char y = 'N';
+        System.out.println(y);
+        float f=2.36f;
+        System.out.println(f);
+        boolean x = true;
+        System.out.println(x);
+
+     
+        
+	}
+
+}
