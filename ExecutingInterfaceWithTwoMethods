@@ -1,0 +1,33 @@
+package interfaceassignment;
+
+public class TwoMethods implements InterfaceWithTwoMethods {
+	
+	@Override
+	public void implemented(int x) {
+		int cube = x*x*x;
+		System.out.println("Cube is : " +cube);
+		
+		
+	}
+
+	@Override
+	public void tobeimplemented(int y, int z) {
+		
+		
+	}
+
+
+	
+	
+
+	public static void main(String[] args) {
+		TwoMethods t = new TwoMethods();
+		t.implemented(58);
+		
+	}
+
+
+
+
+	
+}
