@@ -1,0 +1,18 @@
+package interfaceassignment;
+
+public class ExecutingInterfacewithSameMethod implements InterfaceWithSameMethod, InterfaceWithSameMethod2 {
+
+	@Override
+	public void add(int a, int b) {
+		int add = a+b;
+		System.out.println("Sum = " +add);
+		
+	}
+	public static void main(String[] args) {
+		ExecutingInterfacewithSameMethod e = new ExecutingInterfacewithSameMethod();
+		e.add(8520, 7410);
+		
+	}
+
+	
+}
