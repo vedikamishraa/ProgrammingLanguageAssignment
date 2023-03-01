@@ -1,0 +1,30 @@
+package staticassignment;
+
+public class StaticMethodsinInstanceMethods {
+	
+	
+	
+		
+		public void instance()
+	 {
+		 System.out.println("This is Instance Method");
+		
+		 
+	 }
+		 static void noninstance() {
+			System.out.println("This is Static Method");
+		}
+		 
+		 public static void main(String[] args) {
+			 StaticMethodsinInstanceMethods sm = new StaticMethodsinInstanceMethods();
+			 sm.instance();
+			 StaticMethodsinInstanceMethods.noninstance();
+
+		}
+		
+
+	
+	
+}
+
+
