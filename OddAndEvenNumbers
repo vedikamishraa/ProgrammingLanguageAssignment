@@ -1,0 +1,21 @@
+package loops;
+
+public class OddandEvenNumbers {
+
+	public static void main(String[] args) {
+		for (int x = 1;x<10;x=x+2)
+		{
+		System.out.println("Odd Numbers");
+		System.out.println(x);
+		}
+
+		for (int y = 2;y<10;y=y+2)
+		{
+		System.out.println("Even Numbers");
+		System.out.println(y);
+		}
+
+
+	}
+
+}
