@@ -1,0 +1,22 @@
+package staticassignment;
+
+public class InstanceVariablesinStaticMethod {
+
+	
+	  int a=65;
+	  int b=98;
+	  int sum=a+b;
+	
+	
+	public static void main(String[] args) {
+		InstanceVariablesinStaticMethod i = new InstanceVariablesinStaticMethod();
+		System.out.println("Addition of A and B: " +i.sum);
+		
+		
+		
+		  
+	}
+}
+		  
+		
+
