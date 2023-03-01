@@ -1,0 +1,11 @@
+package strings;
+
+public class LengthofString {
+
+	public static void main(String[] args) {
+		String s= "Assignment";
+		System.out.println("Length of string id : " +s.length());
+
+	}
+
+}
