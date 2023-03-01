@@ -1,0 +1,13 @@
+package strings;
+
+public class MatchingStringAgainstExpression {
+
+	public static void main(String[] args) {
+		String s = "Strawberry is a fruit";
+		System.out.println(s.matches("(.*)Strawberry(.*)"));
+		System.out.println(s.matches("(.*)fru(.*)"));
+		System.out.println(s.matches("(.*)excel(.*)"));
+
+	}
+
+}
