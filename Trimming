@@ -1,0 +1,11 @@
+package strings;
+
+public class Trimming {
+
+	public static void main(String[] args) {
+		String s = "Mango comes in the summer season";
+		System.out.println(s.trim()+ " in Mumbai ");
+
+	}
+
+}
