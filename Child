@@ -1,0 +1,18 @@
+package ThisAndSuper;
+
+public class Child extends Parent{
+
+	public Child() {
+		
+		super();
+		System.out.println(" Child Cnstructor");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		Child ch = new Child();
+		
+	}
+
+}
