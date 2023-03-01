@@ -1,0 +1,14 @@
+package strings;
+
+public class UppercaseandLowercase {
+
+	public static void main(String[] args) {
+		String s = "assignment";
+		System.out.println(s.toUpperCase());
+		
+		String c = "AN APPLE A DAY KEEPS THE DOCTOR AWAY";
+		System.out.println(c.toLowerCase());
+
+	}
+
+}
