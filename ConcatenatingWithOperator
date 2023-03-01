@@ -1,0 +1,12 @@
+package strings;
+
+public class Concatenatingwithoperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 
+		String s = "Shahrukh " + "Khan";
+		System.out.println(s);
+	}
+
+}
