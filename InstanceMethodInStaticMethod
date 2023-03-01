@@ -1,0 +1,20 @@
+package staticassignment;
+
+public class InstanceMethodsinStaticMethod {
+	public static void main(String[] args) {
+
+		 InstanceMethodsinStaticMethod im = new InstanceMethodsinStaticMethod();
+		 im.addition(); 
+	}
+	
+	
+	int a = 56;
+	int b = 25;
+	 public void addition()
+	 {
+		 System.out.println("Addition : " +(a+b));
+	 }
+	
+	
+}
+
