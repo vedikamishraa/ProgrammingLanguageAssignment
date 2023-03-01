@@ -1,0 +1,67 @@
+/*3.Create a HashSet with at least 10 elements of type String
+ * - Write program covering all the operations of HashSet
+ */
+collections;
+
+import java.util.Iterator;
+
+public class HashSet {
+    public static void main(String[] args) {
+
+        java.util.HashSet<String> net = new java.util.HashSet<>();
+
+        //a. adding elements to the HashSet using add() method
+        net.add("zero");
+        net.add("one");
+        net.add("two");
+        net.add("three");
+        net.add("four");
+        net.add("five");
+        net.add("six");
+        net.add("seven");
+        net.add("eight");
+        net.add("nine");
+        net.add("ten");
+        //does not allow duplicate elements, Set contains unique elements only.
+        net.add("nine");
+        System.out.println("\nAfter adding elements to HashSet :");
+        //HashSet doesn't maintain the insertion order
+        System.out.println("HashNet = " + net);
+
+
+        //b. Iterating through the HashSet by using Iterator object
+        Iterator<String> itr = net.iterator();
+        System.out.println("\nIterating through the HashSet : ");
+        while (itr.hasNext()) {
+            System.out.print(itr.next() + " ");
+        }
+        System.out.println(" ");
+
+        //c. Create a clone/copy of HashSet using clone() method
+        System.out.println("\nclone/copy of HashSet : ");
+        System.out.println(net.clone());
+
+        //c. Removing a specific element using remove() method
+        net.remove("zero");
+        System.out.println("\nAfter removing element 'zero' :");
+        System.out.println("HashNet = " + net);
+
+        //f. Checking if the set is empty using isEmpty() method
+        System.out.println("\nChecking if the set is empty :");
+        System.out.println(net.isEmpty());
+
+
+        //h. Finding the size of the HashSet using size() method
+        System.out.println("\nSize of the HashSet : ");
+        System.out.println(net.size());
+
+        //d. Checking if element is present in the HashSet using contains() method
+        System.out.println("\nElement 'one' is present in the HashSet : ");
+        System.out.println(net.contains("one")); //returns boolean value
+
+        //j. Removing all elements of the HashSet using clear() method
+        System.out.println("\nAfter removing all elements of the HashSet :");
+        net.clear();
+        System.out.println("HashNet = " + net);
+    }
+}
