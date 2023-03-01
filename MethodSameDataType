@@ -1,0 +1,21 @@
+package methodoverloading;
+
+public class MethodSameDataType {
+	
+	public void integers(int a)
+	{
+		System.out.println(a);
+	}
+	
+	public void integers1(int b)
+	{
+		System.out.println(b);
+	}
+	public static void main(String[] args) {
+		MethodSameDataType msd = new MethodSameDataType();
+		msd.integers(6521);
+		msd.integers1(963852741);
+	
+	}
+
+}
