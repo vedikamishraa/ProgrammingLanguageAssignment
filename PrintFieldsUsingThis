@@ -1,0 +1,26 @@
+package ThisAndSuper;
+
+public class PrintFieldsUsingThis {
+	int dresscode;
+	String name;  
+	float bill;  
+	PrintFieldsUsingThis(int dresscode,String name,float bill){  
+	this.dresscode=dresscode;  
+	this.name=name;  
+	this.bill=bill; 
+	}
+	
+	void display()
+	{
+		System.out.println(dresscode +  " " + name + " " + bill);
+	}
+
+	public static void main(String[] args) {
+		PrintFieldsUsingThis pf = new PrintFieldsUsingThis(251, "Andi", 25000);
+		pf.display();
+		PrintFieldsUsingThis pf1 = new PrintFieldsUsingThis(252, "Miles", 5000);
+		pf1.display();
+		
+	}
+
+}
