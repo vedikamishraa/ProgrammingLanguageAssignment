@@ -1,0 +1,12 @@
+package strings;
+
+public class NumberstoString {
+
+	public static void main(String[] args) {
+		int value=1504;  
+		String s1=String.valueOf(value);  
+		System.out.println(s1 +1999);
+
+	}
+
+}
