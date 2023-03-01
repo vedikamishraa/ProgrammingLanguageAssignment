@@ -1,0 +1,9 @@
+package ThisAndSuper;
+
+public class SuperInMethods {
+
+	public void fruit()
+	{
+		System.out.println("Mango is the king of fruits");
+	}
+}
