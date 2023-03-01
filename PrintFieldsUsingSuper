@@ -1,0 +1,15 @@
+package ThisAndSuper;
+
+public class PrintFieldsUsingSuper {
+	
+	String color="Blue is my favourite color";
+	public void colour()
+	{
+	System.out.println(color);
+	}
+	
+		
+
+	
+
+}
