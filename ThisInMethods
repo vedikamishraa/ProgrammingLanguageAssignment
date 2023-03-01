@@ -1,0 +1,20 @@
+package ThisAndSuper;
+
+public class ThisInMethods {
+	 public void Marvel()
+	 {
+		 System.out.println("I am Ironman");
+	 }
+	 
+	 public void Avengers()
+	 {
+		 this.Marvel();
+		 System.out.println("I am Spiderman");
+	 }
+	 
+	 public static void main(String[] args) {
+		 ThisInMethods t = new ThisInMethods();
+		 t.Avengers();
+	 }
+
+}
