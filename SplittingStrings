@@ -1,0 +1,14 @@
+package strings;
+
+public class SplittingStrings {
+
+	public static void main(String[] args) {
+		String s = "This is part I This is part II";
+		String[] word = s.split("\\s");
+		for (String x : word)
+		{
+			System.out.println(x);
+		}
+	}
+
+}
