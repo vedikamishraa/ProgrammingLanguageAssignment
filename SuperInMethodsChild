@@ -1,0 +1,23 @@
+package ThisAndSuper;
+
+public class SuperInMethodsChild extends SuperInMethods{
+	public void fruit()
+	{
+		System.out.println("Strawberry comes in the winter season");
+	}
+	
+	public void veg()
+	{
+		System.out.println("Potato is the king of vegetables");
+		super.fruit();
+	}
+	
+
+	public static void main(String[] args) {
+		SuperInMethodsChild su = new SuperInMethodsChild();
+		su.veg();
+		
+
+	}
+
+}
