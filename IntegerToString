@@ -1,0 +1,10 @@
+package strings;
+
+public class IntegertoStrings {
+	public static void main(String[] args) {
+		int x = 963;
+		String s = Integer.toString(x);
+		System.out.println(s + 369);
+	}
+
+}
