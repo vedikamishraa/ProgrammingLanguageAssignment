@@ -1,0 +1,23 @@
+package methodoverloading;
+
+public class MethodDifferentDataTypes {
+	
+	public void display(int g)
+	{
+		System.out.println("Value of g : " +g);
+	}
+	
+	public void display(String h)
+	{
+		System.out.println(h);
+	}
+
+	public static void main(String[] args) {
+		MethodDifferentDataTypes mdt = new MethodDifferentDataTypes();
+		mdt.display(10);
+		mdt.display("Method Overloading");
+		
+		
+	}
+
+}
