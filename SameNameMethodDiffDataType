@@ -1,0 +1,21 @@
+package methodoverloading;
+
+public class SameNameMethodDiffDataType {
+	
+	public void gong(int f)
+	{
+		System.out.println(f);
+	}
+	
+	public void gong(String l)
+	{
+		System.out.println(l);
+	}
+
+	public static void main(String[] args) {
+		SameNameMethodDiffDataType sm = new SameNameMethodDiffDataType();
+		sm.gong(789);
+		sm.gong("String through parameter");
+	}
+
+}
