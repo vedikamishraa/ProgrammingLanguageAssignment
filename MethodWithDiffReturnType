@@ -1,0 +1,26 @@
+package methodoverloading;
+
+public class MethodWithDiffReturnType {
+	
+	public String name(String j)
+	{
+		System.out.println(j);
+		return j;
+	}
+
+	
+	public char name(char p)
+	{
+		System.out.println(p);
+		char h=p;
+		return h;
+	}
+	public static void main(String[] args) {
+		
+		MethodWithDiffReturnType m = new MethodWithDiffReturnType();
+		m.name("java");
+		m.name("Python");
+		
+	}
+
+}
