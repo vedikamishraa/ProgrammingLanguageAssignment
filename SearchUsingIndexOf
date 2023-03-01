@@ -1,0 +1,16 @@
+package strings;
+
+public class SearchUsingIndexOf {
+
+	public static void main(String[] args) {
+	String s = "This is a lazy dog";
+	int index = s.indexOf("lazy");
+	System.out.println(index);
+	
+	int index1 = s.indexOf("is" , 3);
+	System.out.println(index1);
+
+	}
+
+}
+
