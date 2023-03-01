@@ -1,0 +1,19 @@
+package ThisAndSuper;
+
+public class Colour extends PrintFieldsUsingSuper {
+	
+	public void pastel()
+	{
+		String color="Lavender is my favourite color";
+		System.out.println(color);
+		System.out.println(super.color);
+	}
+
+	public static void main(String[] args) {
+		Colour c = new Colour();
+		c.pastel();
+		
+
+	}
+
+}
