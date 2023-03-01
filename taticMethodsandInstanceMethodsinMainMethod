@@ -1,0 +1,32 @@
+package staticassignment;
+
+public class StaticMethodsandInstanceMethodsinMainMethod {
+	int a= 66;
+	int b = 66;
+	int mul = a*b;
+	static int c;
+	
+	
+	public void mul() {
+		System.out.println("Multiplication : " +mul);
+	}
+	
+	  public static void count()
+	{
+		c++;
+		System.out.println(c);
+		
+	}
+	  public static void main(String[] args) {
+			StaticMethodsandInstanceMethodsinMainMethod s = new StaticMethodsandInstanceMethodsinMainMethod();
+			s.mul();
+			StaticMethodsandInstanceMethodsinMainMethod.count(); 
+	  }
+	 
+
+	
+		
+
+	
+
+}
