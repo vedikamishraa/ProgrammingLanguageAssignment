@@ -1,0 +1,40 @@
+package staticassignment;
+
+public class Student {
+	//1.Write a class with 2 static variables, 2 Instance variables, 2 static methods, 2 instance
+	String name;
+	int age;
+	static int c;
+	static int rollno=100;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	static void count()
+	{
+		c++;
+		rollno++;
+		System.out.println(" Student count: " +c);
+		System.out.println(" Student Roll Number " +rollno);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student s = new Student();
+		Student.count();
+		s.setName("Vedika");
+		s.setAge(23);
+		System.out.println(" Student Name : " +s.getName());
+		System.out.println(" Student Age : " +s.getAge());
+	}
+
+}
